@@ -24,7 +24,7 @@ def _resolver_icono(nombre_archivo):
     return rutas[0]  # devuelve la ruta esperada para mostrar el error si no existe
 
 
-ICONO_VENTANA = _resolver_icono("logo.ico")
+ICONO_VENTANA = _resolver_icono("icon.png")
 LOGO_TARJETA = _resolver_icono("logo2.ico")  # logo dentro del login
 
 # --- Paleta de colores ---
